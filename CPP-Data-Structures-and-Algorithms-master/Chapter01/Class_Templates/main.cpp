@@ -84,15 +84,16 @@ public:
     void GetNameAndMakeSound()
     {
         cout << m_animal.GetName() << " goes ";
-        cout << m_animal.MakeSound() << endl;
+        cout << m_animal.MakeSound() << endl;//对应实际对象
     }
 };
 
 int main()
 {
     Dog dog = Dog("Bulldog");
-    AnimalTemplate<Dog> dogTemplate(dog);
-    dogTemplate.GetNameAndMakeSound();
+    AnimalTemplate<Dog> dogTemplate(dog); //模板对象 Dog为模板类的实体 dog为构造函数的参数
+    cout << dog.MakeSound();//对象和方法
+    dogTemplate.GetNameAndMakeSound();//模板对象的方法
 
     Cat cat = Cat("Persian Cat");
     AnimalTemplate<Cat> catTemplate(cat);

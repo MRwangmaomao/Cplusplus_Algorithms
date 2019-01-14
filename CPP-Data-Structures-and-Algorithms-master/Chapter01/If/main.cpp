@@ -7,7 +7,7 @@ int main ()
 {
     int i;
     cout << "Please enter an integer value: ";
-    cin >> i;
+    i = 20;
     cout << "The value you entered is ";
 
     if(i > 100)

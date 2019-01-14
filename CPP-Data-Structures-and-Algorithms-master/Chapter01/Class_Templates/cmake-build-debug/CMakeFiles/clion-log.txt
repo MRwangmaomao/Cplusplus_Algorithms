@@ -1,0 +1,4 @@
+/home/wpr/Thirtylib/clion-2018.3.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wpr/code/Cplusplus_Algorithms/CPP-Data-Structures-and-Algorithms-master/Chapter01/Class_Templates
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wpr/code/Cplusplus_Algorithms/CPP-Data-Structures-and-Algorithms-master/Chapter01/Class_Templates/cmake-build-debug
