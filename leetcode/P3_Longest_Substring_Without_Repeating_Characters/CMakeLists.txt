@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(P3_Longest_Substring_Without_Repeating_Characters)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(P3_Longest_Substring_Without_Repeating_Characters main.cpp)

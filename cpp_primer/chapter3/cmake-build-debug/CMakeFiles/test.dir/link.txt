@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/test.dir/ch3_2_2.cpp.o  -o test 
